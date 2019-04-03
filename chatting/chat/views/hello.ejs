@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello!</title>
+    <link rel="stylesheet" href="/chat/public/stylesheets/style.css"/>
+</head>
+<body>
+    <h1>Hello 
+        <% if(name){ %>
+        <span class='name'><%= name %>!</span>
+        <% }else{ %>
+        <span>Strange!</span> 
+        <%}%>
+    </h1>
+</body>
+</html>

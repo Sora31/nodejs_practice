@@ -1,0 +1,10 @@
+.env
+*.txt
+node_modules/
+uploads/
+yarn.lock
+package-lock.json
+chatting_example/
+GrowingGames/
+nodejs-book-master/
+material-design-lite/
